@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <header className={cn("flex justify-between items-center mb-4")}>
-      <h1 className={cn("text-3xl font-bold mb-4")}>Stock Data</h1>
+      <h1 className={cn("text-3xl font-bold mb-4")}>{symbol} Stock Data</h1>
       <ModeToggle />
       </header>
     <div className={cn("p-6")}>
